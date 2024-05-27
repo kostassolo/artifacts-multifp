@@ -1,5 +1,5 @@
-# Harnessing Multiplicity Granular Browser Extension Fingerprinting through User Configurations - Artifacts Page
-
+# Artifacts Page
+## Harnessing Multiplicity Granular Browser Extension Fingerprinting through User Configurations
 
 ## Summary
 
