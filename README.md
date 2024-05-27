@@ -7,6 +7,7 @@ Our paper introduces a technique for extracting multiple signatures of each exte
 
 We also provide a simplified honeypage for extension testing. Each configuration is applied through an additional content-script, and the signature is extracted from a mutation observer.
 
+
 ## Extensions
 
 We include the artifacts for the following extensions
@@ -32,6 +33,9 @@ The folder contains a simple HTML page and a Node server hosting the page in loc
 ### Artifacts
 
 Contains 5 different extension folders, with various configuration options and their signatures.
+For simpler comparison between the signatures, we include a representative subset of the available options for extensions with a higher number of options or a wide value range.
+
+
 
 Specifically, for each folder, we store the following :  
 
