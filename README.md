@@ -31,7 +31,7 @@ The folder contains a simple HTML page and a Node server hosting the page in loc
 
 ### Artifacts
 
-Contains 5 different extension folders, with configuration options and different signatures.
+Contains 5 different extension folders, with various configuration options and their signatures.
 
 Specifically, for each folder, we store the following :  
 
