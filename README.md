@@ -44,7 +44,7 @@ Specifically, for each folder, we store the following :
 
 - **Configurations Directory:**
   - `configuration.json`: The initial options for the extension.
-  - `config1,config2, configX`: Various  options  specific to the extension.
+  - `config1,config2,configX`: Various  options  specific to the extension.
 
 - **Signatures Directory:**
   - Baseline signature: The fingerprint of the extension without customization.
