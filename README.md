@@ -77,10 +77,10 @@ The folder `testing` contains the main logic of the configuration testing. It ge
 3. **Run the Fuzzing Script:**
 
       ```sh
-      python fuzzing_options.py ../extensions/extension-name/configurations/configuration.json
+      python fuzzing_options.py <configuration>.json
       ```
 
-    This will generate multiple fuzzed configurations and store them in the `configurations` folder.
+    This will generate multiple fuzzed configurations for the input options and store them in the `configurations` folder.
 
 4. **Test and Extract Signatures:**
 
@@ -88,7 +88,7 @@ The folder `testing` contains the main logic of the configuration testing. It ge
 
     - Run the crawler script with the configuration folder and the extension code folder  as  arguments :
       ```sh
-      python3 crawler.py <configurations> ../extensions/<extensionID>
+      python3 crawler.py <configurations_folder> ../extensions/<extensionID>
       ```
 
     This will open a new browser instance, apply each configuration, and extract the signature, storing it in the `signatures` directory.
